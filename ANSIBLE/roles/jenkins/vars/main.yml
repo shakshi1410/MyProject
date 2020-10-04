@@ -1,0 +1,5 @@
+---
+# vars file for jenkins
+maven_url: http://apachemirror.wuchna.com/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+jenkins_key_url: https://pkg.jenkins.io/debian-stable/jenkins.io.key
+jenkins_repo: 'deb https://pkg.jenkins.io/debian-stable binary/'

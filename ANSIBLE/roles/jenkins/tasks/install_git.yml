@@ -1,0 +1,5 @@
+- name: Install GIT on Ubuntu
+  apt:
+          name: git
+          state: present
+          update_cache: yes

@@ -1,0 +1,11 @@
+- name: Install Java on Ubuntu
+  apt:
+          name: openjdk-8-jdk
+          state: present
+  when: ansible_distribution == "Ubuntu"
+
+- name: Install Java on RadHat
+  apt:
+          name: openjdk-8-jdk
+          state: present
+  when: ansible_distribution == "RadHat"

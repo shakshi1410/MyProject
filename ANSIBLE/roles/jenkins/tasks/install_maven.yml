@@ -1,0 +1,11 @@
+- name: Install Maven package
+  get_url:
+          url: "{{ maven_url }}"
+          dest: /tmp
+
+- name: Unarchive tar
+  unarchive:
+          src: /tmp/apache-maven-3.6.3-bin.tar.gz
+          dest: /opt
+          remote_src: yes
+

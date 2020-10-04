@@ -1,0 +1,14 @@
+---
+# tasks file for jenkins
+- name: Install Java
+  include_tasks: install_java.yml
+
+- name: Install Git
+  include_tasks: install_git.yml
+
+- name: Install Maven
+  include_tasks: install_maven.yml
+
+- name: Install Jenkins
+  include_tasks: install_jenkins.yml
+
